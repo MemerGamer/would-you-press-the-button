@@ -35,7 +35,7 @@ export default function App() {
   const pretty = (v: unknown) => JSON.stringify(v, null, 2)
 
   return (
-    <div className="min-h-screen flex flex-col bg-neutral-950 text-neutral-100">
+    <div className="min-h-screen flex flex-col bg-neutral-950 text-neutral-100 w-full max-w-full overflow-x-hidden">
       <Header>
         <div>
           <h1 className="text-2xl md:text-5xl font-bold tracking-tight">
@@ -48,8 +48,8 @@ export default function App() {
         </div>
       </Header>
 
-      <main className="flex-1 w-full">
-        <div className="mx-auto max-w-4xl px-4 py-6 md:px-6 md:py-10">
+      <main className="flex-1 w-full max-w-full overflow-x-hidden">
+        <div className="mx-auto max-w-4xl px-4 py-6 md:px-6 md:py-10 w-full">
           <div className="rounded-lg border border-neutral-800 bg-neutral-900 p-4 md:p-6 relative">
             <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4">
               <div className="w-full flex justify-center sm:w-auto">
