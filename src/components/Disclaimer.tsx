@@ -4,7 +4,7 @@ export function Disclaimer() {
     const { t } = useTranslation();
 
     return (
-        <section className="mt-10 rounded-lg border border-neutral-800 bg-neutral-900 p-6">
+        <section className="mt-6 sm:mt-10 rounded-lg border border-neutral-800 bg-neutral-900 p-6">
             <h2 className="text-xl font-semibold">{t('disclaimer.title')}</h2>
             <p className="mt-2 text-neutral-300">
                 {t('disclaimer.main')}
