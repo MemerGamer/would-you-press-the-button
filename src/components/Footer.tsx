@@ -18,15 +18,17 @@ export function Footer() {
             py-6 text-center text-neutral-300 text-xs md:text-sm
           "
             >
-                © {new Date().getFullYear()} Kovács Bálint Hunor. All rights reserved.
+                © {new Date().getFullYear()}
                 <a
                     href="https://www.kovacsbalinthunor.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="underline hover:text-neutral-100 ml-1 transition-colors"
+                    className="text-indigo-400 hover:underline mx-1"
                 >
-                    www.kovacsbalinthunor.com
+                    Kovács Bálint Hunor.
                 </a>
+
+                All rights reserved.
             </div>
         </footer>
     )
