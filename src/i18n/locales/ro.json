@@ -1,0 +1,140 @@
+{
+    "deviceTypes": {
+        "ios": "Dispozitiv iOS",
+        "android": "Dispozitiv Android",
+        "windowsPhone": "Windows Phone",
+        "tablet": "Tabletă",
+        "mobile": "Dispozitiv Mobil",
+        "desktop": "Calculator Desktop"
+    },
+    "os": {
+        "windows": {
+            "10": "Windows 10",
+            "8_1": "Windows 8.1",
+            "8": "Windows 8",
+            "7": "Windows 7",
+            "vista": "Windows Vista",
+            "xp": "Windows XP",
+            "generic": "Windows"
+        },
+        "macos": {
+            "version": "macOS {{version}}",
+            "generic": "macOS"
+        },
+        "linux": "Linux",
+        "ios": {
+            "version": "iOS {{version}}",
+            "generic": "iOS"
+        },
+        "android": {
+            "version": "Android {{version}}",
+            "generic": "Android"
+        },
+        "unknown": "Sistem de operare necunoscut"
+    },
+    "browser": {
+        "chrome": "Chrome",
+        "firefox": "Firefox",
+        "safari": "Safari",
+        "edge": "Edge",
+        "opera": "Opera",
+        "unknown": "Browser necunoscut"
+    },
+    "network": {
+        "connectionTypes": {
+            "slow2g": "2G lent",
+            "2g": "2G",
+            "3g": "3G",
+            "4g": "4G",
+            "unknown": "Necunoscut"
+        }
+    },
+    "title": "Ai apăsa butonul?",
+    "subtitle": "...chiar dacă nu știi ce face?",
+    "button": {
+        "press": "Apasă butonul",
+        "collecting": "Se colectează..."
+    },
+    "description": "Acest lucru simulează cât de multe poate afla un site aleatoriu despre tine, rapid.",
+    "tabs": {
+        "overview": "Prezentare generală",
+        "browser": "Browser",
+        "device": "Dispozitiv",
+        "network": "Rețea",
+        "storage": "Stocare",
+        "location": "Locație"
+    },
+    "labels": {
+        "browser": "Browser",
+        "os": "Sistem de operare",
+        "deviceType": "Tip dispozitiv",
+        "publicIp": "IP Public",
+        "timezone": "Fus orar",
+        "referrer": "Referrer",
+        "currentUrl": "URL curent",
+        "online": "Online",
+        "screenViewport": "Ecran / Viewport",
+        "storageSnapshot": "Captură stocare browser",
+        "rawData": "Date brute (JSON)",
+        "browserName": "Nume browser",
+        "userAgent": "User Agent",
+        "vendor": "Furnizor",
+        "platform": "Platformă",
+        "languages": "Limbi",
+        "doNotTrack": "Nu urmări",
+        "webDriver": "WebDriver",
+        "performance": "Performanță",
+        "type": "Tip",
+        "cores": "Nuclee",
+        "deviceMemory": "Memorie dispozitiv (GB)",
+        "screen": "Ecran",
+        "viewport": "Viewport",
+        "battery": "Baterie",
+        "userActivation": "Activare utilizator",
+        "effectiveType": "Tip efectiv",
+        "downlink": "Viteză de descărcare (Mbps)",
+        "rtt": "RTT (ms)",
+        "saveData": "Economisire date",
+        "cookiesEnabled": "Cookie-uri activate",
+        "localStorageSize": "Dimensiune LocalStorage (bytes)",
+        "sessionStorageSize": "Dimensiune SessionStorage (bytes)",
+        "indexedDbEstimate": "Estimare IndexedDB",
+        "permission": "Permisiune",
+        "coordinates": "Coordonate"
+    },
+    "values": {
+        "none": "(niciunul)",
+        "unavailable": "Indisponibil",
+        "unknown": "Necunoscut",
+        "notSupported": "Nesuportat",
+        "mobileDetected": "(UA mobil detectat)",
+        "online": "Online",
+        "offline": "Offline",
+        "yes": "Da",
+        "no": "Nu",
+        "active": "Activ",
+        "inactiveUnknown": "Inactiv/Necunoscut"
+    },
+    "location": {
+        "requestButton": "Solicită locația",
+        "requesting": "Se solicită...",
+        "onlyOnRequest": "Locația este solicitată doar dacă apeși butonul.",
+        "httpsWarning": "Geolocalizarea poate fi blocată pe origini nesigure. Folosește HTTPS.",
+        "accuracyTip": "Sfat: Activează Wi-Fi (chiar dacă nu ești conectat), dezactivează VPN/relay privat, sau apropie-te de o fereastră, apoi apasă din nou \"Solicită locația\".",
+        "permission": {
+            "notRequested": "Nesolicitată",
+            "granted": "Permisă",
+            "denied": "Refuzată"
+        },
+        "onlyWithPermission": "Locația apare doar dacă o permiți explicit în browser."
+    },
+    "disclaimer": {
+        "title": "Notă și Scop",
+        "main": "Această pagină demonstrează câte informații poate descoperi un site web obișnuit despre dispozitivul și browserul tău după un singur click. Nicio informație nu este trimisă către vreun server în această demonstrație; tot ce vezi este generat și afișat local în browserul tău.",
+        "warning": "Fii precaut când dai clic pe linkuri sau butoane aleatorii. Informațiile pe care le expui pot include adresa ta IP publică, detalii despre dispozitiv și uneori locația precisă dacă o permiți.",
+        "tip": "Sfat: Pentru confidențialitatea ta, folosește linkuri de încredere, menține browserul actualizat și verifică cu atenție solicitările de permisiuni."
+    },
+    "storage": {
+        "note": "Notă: Site-urile nu pot citi cookie-urile sau conținutul IndexedDB al altor site-uri datorită politicii same-origin. Arătăm doar dimensiuni/estimări."
+    }
+}

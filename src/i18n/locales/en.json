@@ -1,0 +1,140 @@
+{
+    "deviceTypes": {
+        "ios": "iOS Device",
+        "android": "Android Device",
+        "windowsPhone": "Windows Phone",
+        "tablet": "Tablet",
+        "mobile": "Mobile Device",
+        "desktop": "Desktop Computer"
+    },
+    "os": {
+        "windows": {
+            "10": "Windows 10",
+            "8_1": "Windows 8.1",
+            "8": "Windows 8",
+            "7": "Windows 7",
+            "vista": "Windows Vista",
+            "xp": "Windows XP",
+            "generic": "Windows"
+        },
+        "macos": {
+            "version": "macOS {{version}}",
+            "generic": "macOS"
+        },
+        "linux": "Linux",
+        "ios": {
+            "version": "iOS {{version}}",
+            "generic": "iOS"
+        },
+        "android": {
+            "version": "Android {{version}}",
+            "generic": "Android"
+        },
+        "unknown": "Unknown OS"
+    },
+    "browser": {
+        "chrome": "Chrome",
+        "firefox": "Firefox",
+        "safari": "Safari",
+        "edge": "Edge",
+        "opera": "Opera",
+        "unknown": "Unknown Browser"
+    },
+    "network": {
+        "connectionTypes": {
+            "slow2g": "Slow 2G",
+            "2g": "2G",
+            "3g": "3G",
+            "4g": "4G",
+            "unknown": "Unknown"
+        }
+    },
+    "title": "Would you press the button?",
+    "subtitle": "…even if you don't know what it does?",
+    "button": {
+        "press": "Press the button",
+        "collecting": "Collecting…"
+    },
+    "description": "This simulates how much a random site can learn about you, fast.",
+    "tabs": {
+        "overview": "Overview",
+        "browser": "Browser",
+        "device": "Device",
+        "network": "Network",
+        "storage": "Storage",
+        "location": "Location"
+    },
+    "labels": {
+        "browser": "Browser",
+        "os": "OS",
+        "deviceType": "Device Type",
+        "publicIp": "Public IP",
+        "timezone": "Timezone",
+        "referrer": "Referrer",
+        "currentUrl": "Current URL",
+        "online": "Online",
+        "screenViewport": "Screen / Viewport",
+        "storageSnapshot": "Browser storage snapshot",
+        "rawData": "Raw data (JSON)",
+        "browserName": "Browser Name",
+        "userAgent": "User Agent",
+        "vendor": "Vendor",
+        "platform": "Platform",
+        "languages": "Languages",
+        "doNotTrack": "Do Not Track",
+        "webDriver": "WebDriver",
+        "performance": "Performance",
+        "type": "Type",
+        "cores": "Cores",
+        "deviceMemory": "Device Memory (GB)",
+        "screen": "Screen",
+        "viewport": "Viewport",
+        "battery": "Battery",
+        "userActivation": "User Activation",
+        "effectiveType": "Effective Type",
+        "downlink": "Downlink (Mbps)",
+        "rtt": "RTT (ms)",
+        "saveData": "Save Data",
+        "cookiesEnabled": "Cookies enabled",
+        "localStorageSize": "LocalStorage size (bytes)",
+        "sessionStorageSize": "SessionStorage size (bytes)",
+        "indexedDbEstimate": "IndexedDB estimate",
+        "permission": "Permission",
+        "coordinates": "Coordinates"
+    },
+    "values": {
+        "none": "(none)",
+        "unavailable": "Unavailable",
+        "unknown": "Unknown",
+        "notSupported": "Not supported",
+        "mobileDetected": "(mobile UA detected)",
+        "online": "Online",
+        "offline": "Offline",
+        "yes": "Yes",
+        "no": "No",
+        "active": "Active",
+        "inactiveUnknown": "Inactive/Unknown"
+    },
+    "location": {
+        "requestButton": "Request location",
+        "requesting": "Requesting…",
+        "onlyOnRequest": "Location is requested only if you tap the button.",
+        "httpsWarning": "Geolocation may be blocked on non-secure origins. Use HTTPS.",
+        "accuracyTip": "Tip: Turn on Wi‑Fi (even if not connected), disable VPN/private relay, or move near a window, then tap \"Request location\" again.",
+        "permission": {
+            "notRequested": "Not requested",
+            "granted": "Granted",
+            "denied": "Denied"
+        },
+        "onlyWithPermission": "Location only appears if you explicitly allow it in your browser prompt."
+    },
+    "disclaimer": {
+        "title": "Disclaimer & Purpose",
+        "main": "This page demonstrates how much information a regular website can discover about your device and browser after a single button press. No data is sent to any server in this demo; everything you see is generated and displayed locally in your browser.",
+        "warning": "Be cautious when clicking random links or buttons. The information you expose can include your public IP address, device details, and sometimes precise location if you grant permission.",
+        "tip": "Tip: For your privacy, use trusted links, keep your browser updated, and review permission prompts carefully."
+    },
+    "storage": {
+        "note": "Note: Sites cannot read your cookies or IndexedDB contents from other sites due to the same-origin policy. We only show sizes/estimates."
+    }
+}
